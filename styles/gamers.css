@@ -142,6 +142,9 @@
   border: none;
   }
   
+  main{
+    margin-top: 20px;
+  }
   
   .gaming-section{
       display: flex;
@@ -397,7 +400,7 @@
           grid-template-columns: repeat(5, 220px);
           justify-content: center;
           align-items: center;
-          margin-top: 150px;
+          margin-top: 250px;
           margin-left: 100px;
         
           
@@ -689,7 +692,6 @@
       width: 100%;
   }
   
-  .online-games{
       
     
      
@@ -757,7 +759,7 @@
   .footer-icon .fa{
       margin-left: 50px;
   }
-  }
+  
   
   
   @media (min-width: 768px) and (max-width: 1024px){
@@ -840,16 +842,10 @@
       }
       .download-images img{
           width: 90%;
-         
-          
           display: flex;
           justify-content: center;
           align-items: center;
-          margin: 40px;
-      
-          
-      
-         
+          margin: 40px;   
       }
       
       
@@ -894,12 +890,7 @@
           width: 100%;
       }
       
-      .online-games{
-          
-        
-         
-      
-      }
+     
       .game-zone{
           display: grid;
               grid-template-columns: repeat(3, 100px);
