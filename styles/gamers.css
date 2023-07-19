@@ -630,14 +630,14 @@
   
   }
   .game-zone{
-      display: grid;
+          display: grid;
           grid-template-columns: repeat(3, 100px);
           margin-left: -50px;
           justify-content: center;
           align-items: center;
           gap: 20px;
           margin-left: 20px;
-          margin-top: 40px;
+          margin-top: 60px;
   
      
   }
